@@ -1,0 +1,12 @@
+lda #$01
+	sta $f000
+	lda #$02
+	sta $f001
+	lda $f000
+	adc $f001
+	ldx $f001
+	ldy #$a3
+	sty $0001
+	stx $0002
+	ldx $01
+	ldy $02

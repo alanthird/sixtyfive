@@ -1,0 +1,24 @@
+Stuff still to be done:
+
+* create a test suite using results from a real 6502 as reference
+
+* code the entire front end (more details forthcoming)
+
+* add stuff I couldn't be arsed with previously such as Decimal operation
+  and interupts
+
+* determine how to keep the clock ticking over correctly at 1MHz or so
+
+* write a 6502 assembler
+
+
+Sorted:
+
+* Sort any instructions which affect the N register such as ADC and SBC
+  to actually make use of it
+> Think I've sorted all the problems with that and the Z flag, it's just
+  a matter of remembering to deal with it in instructions coded later
+                                                                   -- AT
+* complete any instructions not marked off in instructions/*
+> All done except for some interrupt stuff and suchlike.
+                                                                   -- AT

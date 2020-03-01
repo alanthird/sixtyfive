@@ -1,0 +1,12 @@
+extern void bpl(char);
+extern void bmi(char);
+extern void bvc(char);
+extern void bvs(char);
+extern void bcc(char);
+extern void bcs(char);
+extern void bne(char);
+extern void beq(char);
+extern void jmpabs(uint16_t);
+extern void jmpind(uint16_t);
+extern void jsr(uint16_t);
+extern void rts(void);

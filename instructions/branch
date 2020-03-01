@@ -1,0 +1,13 @@
+bpl implemented
+bmi implemented
+bvc implemented
+bvs implemented
+bcc implemented
+bcs implemented
+bne implemented
+beq implemented
+jmp absolute implemented
+jmp indirect implemented
+jsr implemented
+rts 
+rti 

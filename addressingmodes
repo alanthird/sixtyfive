@@ -1,0 +1,35 @@
+Immediate:
+	the byte in memory directly after the opcode is used for the operation
+
+absolute:
+	the byte in ram directly after the opcode contains the low byte of an
+	address, the next one contains the high byte, the byte stored at the 
+	address is used by the operation
+
+zero page:
+	the byte following the opcode contains the low byte of an address, the
+	top byte of the address is 0x00
+
+implied (accumulator)
+	no memory access is required as the instruction deals with specific
+	locations (ie. registers)
+
+zero page, x:
+	the byte following the opcode is added to the byte contained in the
+	x register, this then functions as the low byte in zero page addressing
+
+absolute, x or y:
+	the address is found as in absolute, but the value in x or y is added
+	to the address
+
+indirect, x:
+	the byte following the opcode is added to teh x register which is then
+	used as the low byte in a zero page address which contains the low byte
+	of another address and the zero page address+1 is the high byte
+
+indirect, y:
+	the byte following the opcode is used as in zero page to find a memory
+	address, the contents of this address is then added to the contents of
+	the y register and this gives the low byte of an address. the next byte
+	in zero page has the carry of the last addition added to it to give the
+	high byte of an address

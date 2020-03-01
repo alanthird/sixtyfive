@@ -1,0 +1,9 @@
+clc
+sec
+cli
+sei
+clv
+cld
+sed
+
+See status.h for details of how these have been implemented ;)
