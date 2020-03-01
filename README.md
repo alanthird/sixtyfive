@@ -1,8 +1,7 @@
 sixtyfive (6502 Emulator) V0.1.1
 --------------------------------
 
-Written by Alan Third (watched by Alisdair McDiarmid, who also just rewrote
-most of this README)
+Written by Alan Third (watched by Alisdair McDiarmid).
 
 FIRST
 -----
@@ -16,16 +15,16 @@ USAGE
 
 To compile, just do:
 
-$ make
+    make
 
 and it compiles no problems. Honest.
 
 Usage is:
 
-$ ./sixtyfive <filename>
+    ./sixtyfive <filename>
 
 (where filename is a 6502 binary -- you'll want a cross assembler like
-xa <http://stockholm.ptloma.edu/cbm/xa/> to make these).
+[xa](http://stockholm.ptloma.edu/cbm/xa/) to make these).
 
 
 STATUS
@@ -39,21 +38,7 @@ followed by anything else we forgot.
 CONTACT
 -------
 
-For now, sixtyfive's temporary page is <http://idiocy.org/6502.html>. Please
-report bugs to <mailto:6502-bugs@idiocy.org>.
-
-Any ideas or stuff should be sent to the head dude in charge of the project:
-
--- Alan Third, alan@idiocy.org
-
-Any abuse due to crappy code or poor documentation should be directed to the
-minion of the project:
-
--- Alisdair McDiarmid, alisdair@wasters.org
-
-Any cows should moo:
-
--- Moo!
+Sixtyfive's home page is https://github.com/alanthird/sixtyfive.
 
 
 LAST WORDS
