@@ -24,7 +24,7 @@ Usage is:
     ./sixtyfive <filename>
 
 (where filename is a 6502 binary -- you'll want a cross assembler like
-[xa](http://stockholm.ptloma.edu/cbm/xa/) to make these).
+[xa](https://www.floodgap.com/retrotech/xa/) to make these).
 
 
 STATUS
