@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <string.h>
 #include "registers.h"
 #include "mem.h"
 
@@ -10,7 +11,7 @@ static unsigned char *memspace;
 
 void allocateram()
 {
-    (unsigned char *) memspace = calloc(65536, sizeof(unsigned char));
+    memspace = (unsigned char *)calloc(65536, sizeof(unsigned char));
     if (memspace == NULL) {
         perror("Could not allocate memory: ");
         exit(1);
